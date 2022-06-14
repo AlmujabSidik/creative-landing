@@ -5,7 +5,7 @@ import CardServices from "./CardServices";
 
 const Services = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden h-[1300px] md:h-[600px]">
       <div className="container relative z-10 px-8 mt-20 md:mt-24">
         <div className="flex flex-col items-center justify-center space-x-8 lg:flex-row ">
           {/* Content Services */}
@@ -57,7 +57,7 @@ const Services = () => {
         <div className="absolute -left-40  -top-[60px] opacity-10">
           <img src={Gra} alt="" className="md:w-[450px] w-[450px]" />
         </div>
-        <div className="absolute right-0 md:-right-40 top-[300px] opacity-10 ">
+        <div className="absolute bottom-0 right-0 md:-right-40 opacity-10 ">
           <img
             src={Gra}
             className="w-[300px] h-[300px] md:w-4/5 md:h-4/5"
