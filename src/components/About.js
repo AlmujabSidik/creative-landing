@@ -31,11 +31,11 @@ const About = () => {
               we help to improve your income by a services we have. make your
               content look interesting and make people look for your business
             </p>
-            <div className="flex justify-center w-full my-5 lg:justify-start space-x-7">
+            <div className="justify-center block w-full my-5 sm:flex lg:justify-start sm:space-x-7">
               <GlobalButton>Contacts Us</GlobalButton>
               <div>
-                <GlobalButton className="flex items-center justify-center w-40 py-2 text-base tracking-wide text-blue-600 transition duration-300 ease-in-out bg-white border border-blue-500 rounded-full shadow-none hover:text-white hover:bg-blue-600">
-                  <div className="flex items-center gap-2">
+                <GlobalButton className="flex items-center justify-center w-full py-1.5 text-base tracking-wide text-blue-600 transition duration-300 ease-in-out bg-white border border-blue-500 rounded-full shadow-none sm:w-40 hover:text-white hover:bg-blue-600 mt-4 sm:mt-0">
+                  <div className="flex items-center gap-2 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="w-6 h-6"

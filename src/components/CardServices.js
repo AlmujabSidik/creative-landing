@@ -3,11 +3,11 @@ import React from "react";
 const CardServices = () => {
   const Icon = [
     {
-      title: "Social Media Management",
+      title: "Web Development",
       picture: require("../assets/monitor.webp"),
     },
     {
-      title: "Search Engine Opimization",
+      title: "Mobile Development",
       picture: require("../assets/setting.webp"),
     },
     {

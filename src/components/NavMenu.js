@@ -44,7 +44,9 @@ const NavMenu = () => {
         
 
         <div className="flex items-center space-x-4">
+        <div className="w-40 i sm:w-full ">
         <GlobalButton>Contact Us</GlobalButton>
+        </div>
         
         <Menu as="div" className="relative flex items-center">
           <Menu.Button>

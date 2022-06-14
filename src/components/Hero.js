@@ -21,7 +21,7 @@ const Hero = () => {
             <GlobalButton>Start Project</GlobalButton>
           </div>
 
-          <div className="relative z-10 flex justify-center ImageHero">
+          <div className="relative z-10 flex justify-center mt-8 ImageHero">
             <img src={ImgHero} alt="" />
           </div>
 
